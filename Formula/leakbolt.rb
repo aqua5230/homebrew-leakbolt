@@ -1,8 +1,8 @@
 class Leakbolt < Formula
   desc "在 git commit 前自動攔截並防範 API 金鑰與密鑰外洩"
   homepage "https://github.com/aqua5230/leakbolt"
-  url "https://github.com/aqua5230/leakbolt/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "5dab3d67f1f3ce2b15b9f0e525492ebf5ce18e8290be8c15c2de81372dddaac0"
+  url "https://github.com/aqua5230/leakbolt/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "f146dec6c099b3b3bedd3d26e7080b33ed5efd1f80cd20b8fdf1b269de469dcc"
   license "MIT"
 
   depends_on "go" => :build
